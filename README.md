@@ -1,5 +1,5 @@
 # Marketing-Campaign-Performance-Analysis - SQL | Power BI
-![output](assets/images/Dashboard.GIF)
+![output](assets/images/DashboardGIF.gif)
 
 # Table of contents
 
@@ -30,16 +30,22 @@ This project aims to analyze marketing data to gain insights into the effectiven
 ## Key Questions to Answer
 
 1.	Campaign Performance: Which campaign generated the highest number of impressions, clicks, and conversions? What is the average cost-per-click (CPC) and click-through rate (CTR) for each campaign?
-2.	Channel Effectiveness: Which channel has the highest ROI? How do impressions, clicks, and conversions vary across different channels?
-3.	Geographical Insights: Which cities have the highest engagement rates (likes, shares, comments)? What is the conversion rate by city?
-4.	Device Performance: How do ad performances compare across different devices (mobile, desktop, tablet)? Which device type generates the highest conversion rates?
-5.	Ad-Level Analysis: Which specific ads are performing best in terms of engagement and conversions? What are the common characteristics of high-performing ads?
-6.	ROI Calculation: What is the ROI for each campaign, and how does it compare across different channels and devices? How does spend correlate with conversion value across different campaigns?
-7.	Time Series Analysis: Are there any noticeable trends or seasonal effects in ad performance over time? 
+
+3.	Channel Effectiveness: Which channel has the highest ROI? How do impressions, clicks, and conversions vary across different channels?
+   
+5.	Geographical Insights: Which cities have the highest engagement rates (likes, shares, comments)? What is the conversion rate by city?
+   
+7.	Device Performance: How do ad performances compare across different devices (mobile, desktop, tablet)? Which device type generates the highest conversion rates?
+   
+9.	Ad-Level Analysis: Which specific ads are performing best in terms of engagement and conversions? What are the common characteristics of high-performing ads?
+    
+11.	ROI Calculation: What is the ROI for each campaign, and how does it compare across different channels and devices? How does spend correlate with conversion value across different campaigns?
+    
+13.	Time Series Analysis: Are there any noticeable trends or seasonal effects in ad performance over time? 
 
 # Data Source
 
-#[DataSource](assets/datasets)
+#[DataSource](assets/datasets/Marketing%20Data.xlsx)
 
 ## Tools
 
@@ -59,6 +65,7 @@ Here’s how I played around with the datasets using right chart visuals to tell
 5.	Clustered bar/column chart
 6.	Bar chart
 7.	Tree map
+
 ![output](assets/images/Dashboard1.PNG)
 
 ![output](assets/images/Dashboard2.PNG)
@@ -88,7 +95,7 @@ GROUP BY Campaign
 ORDER BY Campaign ASC;
 
 ```
-![output](assets/images/001)
+![output](assets/images/001.PNG)
 
 ``` sql
 
@@ -98,7 +105,7 @@ FROM [Marketing Data]
 GROUP BY Campaign;
 
 ```
-![output](assets/images/002)
+![output](assets/images/002.PNG)
 
 ``` sql
 
@@ -112,7 +119,7 @@ GROUP BY Channel
 ORDER BY AmtSpent DESC;
 
 ```
-![output](assets/images/003)
+![output](assets/images/003.PNG)
 
 ``` sql 
 
@@ -124,7 +131,7 @@ FROM [Marketing Data]
 GROUP BY Channel;
 
 ```
-![output](assets/images/004)
+![output](assets/images/004.PNG)
 
 ``` sql
 
@@ -137,7 +144,7 @@ GROUP BY City_Location
 ORDER BY Engagement_Rates DESC;
 
 ```
-![output](assets/images/005)
+![output](assets/images/005.PNG)
 
 ``` sql
 
@@ -148,7 +155,7 @@ GROUP BY City_Location
 ORDER BY CVR DESC;
 
 ```
-![output](assets/images/006)
+![output](assets/images/006.PNG)
 
 ``` sql
 
@@ -163,7 +170,7 @@ FROM [Marketing Data]
 GROUP BY Device;
 
 ```
-![output](assets/images/007)
+![output](assets/images/007.PNG)
 
 ``` sql
 
@@ -174,7 +181,7 @@ GROUP BY Device
 ORDER BY HighConversion DESC;
 
 ```
-![Output](assets/images/008)
+![Output](assets/images/008.PNG)
 
 ``` sql
 
@@ -191,7 +198,7 @@ FROM [Marketing Data]
 GROUP BY Channel;
 
 ```
-![output](assets/images/009)
+![output](assets/images/009.PNG)
 
 ``` sql
 
@@ -209,7 +216,7 @@ GROUP BY Channel, Device
 ORDER BY Channel ASC;	-- Campaign ROI, compare across different channels and devices
 
 ```
-![output](assets/images/010)
+![output](assets/images/010.PNG)
 
 ``` sql
 
@@ -223,7 +230,7 @@ ORDER BY ConversionRate DESC; -- spend correlation with conv value across diff c
 
 
 ``` 
-![output](assets/images/011)
+![output](assets/images/011.PNG)
 
 ``` sql 
 
@@ -247,7 +254,7 @@ GROUP BY DATEPART(YEAR, Date), DATENAME(MONTH, Date)
 ORDER BY MonthName,ConversionRate DESC;
 
 ```
-![output](assets/images/012)
+![output](assets/images/012.PNG)
 
 ## Insights
 
