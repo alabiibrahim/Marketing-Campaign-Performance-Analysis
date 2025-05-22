@@ -1,6 +1,6 @@
 # SQL x Power BI- Marketing Campaign Performance Analysis  
 
-![Dashboarddesign](https://github.com/alabiibrahim/Marketing-Campaign-Performance-Analysis/blob/main/assets/images/DashboardGIF.gif)
+![Dashboarddesign](assets/images/DashboardGIF.gif)
 
 
 # Table of contents
@@ -53,7 +53,7 @@ This project aims to analyze marketing data to gain insights into the effectiven
 
 # Data Source
 
-![DataSource](https://github.com/alabiibrahim/Marketing-Campaign-Performance-Analysis/blob/main/assets/datasets/Marketing%20Data.xlsx)
+![DataSource](assets/datasets/Marketing%20Data.xlsx)
 
 ## Tools
 
@@ -74,9 +74,9 @@ Here’s how I played around with the datasets using right chart visuals to tell
 6.	Bar chart
 7.	Tree map
 
-![Dashboard](https://github.com/alabiibrahim/Marketing-Campaign-Performance-Analysis/blob/main/assets/images/Dashboard1.PNG)
+![Dashboard](main/assets/images/Dashboard1.PNG)
 
-![Dashboard](https://github.com/alabiibrahim/Marketing-Campaign-Performance-Analysis/blob/main/assets/images/Dashboard2.PNG)
+![Dashboard](main/assets/images/Dashboard2.PNG)
 
 ## Stages
 Here’s a step-by-step guide on how the data was approached 
