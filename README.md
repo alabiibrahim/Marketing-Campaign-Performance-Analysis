@@ -3,6 +3,8 @@
 
 ![gif](assets/images/DashboardGIF.gif)
 
+![gif](/main/assets/images/Dashboard%201.PNG)
+
 # Table of contents
 
 - [Project brief](#Projectbrief)
