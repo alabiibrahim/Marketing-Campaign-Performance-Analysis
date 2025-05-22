@@ -53,7 +53,7 @@ This project aims to analyze marketing data to gain insights into the effectiven
 
 # Data Source
 
-![DataSource](assets/datasets/Marketing%20Data.xlsx)
+![DataSource](https://github.com/alabiibrahim/Marketing-Campaign-Performance-Analysis/blob/main/assets/datasets/Marketing%20Data.xlsx)
 
 ## Tools
 
