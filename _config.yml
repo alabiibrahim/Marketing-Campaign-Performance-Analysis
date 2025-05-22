@@ -1,5 +1,6 @@
-title: Hi, Ibrahim here. Welcome to my Portfolio.
-show_downloads: True
-remote_theme: pages-themes/hacker@v0.2.0
+title: Hi, I'm Ibrahim
+decription: An aspiring Data Analyst passionate about turning data into actionable insights. Welcome to my portfolio.
+show_downloads: False
+remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme 
