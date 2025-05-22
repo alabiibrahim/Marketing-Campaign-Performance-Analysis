@@ -75,9 +75,9 @@ Here’s how I played around with the datasets using right chart visuals to tell
 6.	Bar chart
 7.	Tree map
 
-![Dashboard](main/assets/images/Dashboard1.PNG)
+![Dashboard](assets/images/Dashboard1.PNG)
 
-![Dashboard](main/assets/images/Dashboard2.PNG)
+![Dashboard](assets/images/Dashboard2.PNG)
 
 ## Stages
 Here’s a step-by-step guide on how the data was approached 
