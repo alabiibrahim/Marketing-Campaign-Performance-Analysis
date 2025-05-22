@@ -1,6 +1,6 @@
 # SQL x Power BI- Marketing Campaign Performance Analysis  
 
-![Dashboarddesign](main/assets/images/docs/Dashboard%20GIF%20PNG.png)
+![Dashboarddesign](https://github.com/alabiibrahim/Marketing-Campaign-Performance-Analysis/blob/main/assets/images/Dashboard1.PNG)
 
 ![Dashboard](assets/images/Dashboard%20GIF.gif.png)
 
