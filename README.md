@@ -3,6 +3,7 @@
 
 ![Dashboard design](assets/images/docs/Dashboard%20GIF%20PNG.png)
 
+![Dashboard](assets/images/Dashboard%20GIF.gif.png)
 
 
 # Table of contents
