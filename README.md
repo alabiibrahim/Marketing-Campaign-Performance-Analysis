@@ -1,7 +1,7 @@
 # Marketing Campaign PerformanceAnalysis  
 # SQL | Power BI
 
-![gif](assets/images/docs/Dashboard%20GIF%.gif)
+![Dashboard](assets/images/docs/Dashboard%20GIF%)
 
 
 
