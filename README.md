@@ -20,11 +20,17 @@
 This project aims to analyze marketing data to gain insights into the effectiveness of campaign performance, optimize the ad spend, and improve future marketing strategies.
 
 •	Evaluate Campaign Performance: Assess the overall performance of each campaign in terms of reach, engagement, and conversions.
+
 •	Channel Effectiveness: Determine which advertising channels are driving the best results.
+
 •	Geographical Insights: Identify the cities that show the highest engagement and conversion rates.
+
 •	Device Performance: Understand how ads perform across different devices.
+
 •	Ad-Level Analysis: Analyze the performance of individual ads to identify high-performing creatives.
+
 •	ROI Calculation: Calculate the return on investment (ROI) for each campaign.
+
 •	Time Series Analysis: Track the performance trends over time to identify patterns and seasonal effects.
 
 ## Key Questions to Answer
@@ -45,7 +51,7 @@ This project aims to analyze marketing data to gain insights into the effectiven
 
 # Data Source
 
-#[DataSource](assets/datasets/Marketing%20Data.xlsx)
+![DataSource](assets/datasets/Marketing%20Data.xlsx)
 
 ## Tools
 
@@ -66,7 +72,7 @@ Here’s how I played around with the datasets using right chart visuals to tell
 6.	Bar chart
 7.	Tree map
 
-![output](assets/images/Dashboard1.PNG)
+![output](main/assets/images/Dashboard%201.PNG)
 
 ![output](assets/images/Dashboard2.PNG)
 
@@ -259,24 +265,41 @@ ORDER BY MonthName,ConversionRate DESC;
 ## Insights
 
 •	The fall campaign performs best across all key metrics. It significantly outperforms spring and summer campaigns with Impressions: 6,434,259, Clicks: 85,120, Conversions: 14,886.
+
 •	Fall has the highest CTR (1.35%) but also the highest CPC (£0.93). Spring offers the most cost-efficient clicks at £0.86 CPC. Summer has the lowest CTR (1.13%) with CPC nearly as high as Fall (£0.92)
+
 •	Pinterest dominates with an exceptional 2150.68% ROI, significantly outperforming Instagram (980.15%) and Facebook (475.85%). This suggests Pinterest delivers far more conversion value relative to spend.
+
 •	Facebook delivers the most impressions but has the lowest conversion rate (CVR) of 18.77%. Instagram achieves the highest CTR (1.42%) and second-highest CVR (22.71%). Pinterest has the lowest CTR but highest CVR (26.83%), making the ROI standout.
+
 •	London shows the highest overall engagement with 285,706 total interactions, followed by Manchester (278,159) and Birmingham (237,874).
+
 •	Birmingham has the highest conversion rate at 28.79%, and outperforms Manchester (22.86%) and London (17.61%). This suggests Birmingham audiences are more likely to convert after clicking.
+
 •	Desktop generates more conversions (21,310 vs 18,942) and has higher CTR (1.53% vs 1.05%). Mobile is slightly more efficient with lower CPA (£20.42 vs £23.99) and CPC (£0.83 vs £0.97). Conversion rates are nearly identical (4%) across devices.
+
 •	Desktop with higher conversion value (£949,684) but also higher spend (£86,187)
+
 •	Mobile has lower absolute conversion value (£782,016) but more efficient spend (£76,994)
+
 •	Pinterest continues to show exceptional ROI performance. Instagram delivers strong middle-ground performance. Facebook has the lowest ROI among the three channels.
+
 •	There's a strong positive correlation between spend and conversion value, but with diminishing returns at higher spend levels. Pinterest shows the most efficient spend-to-conversion ratio.
+
 •	Fall consistently outperforms other seasons across all metrics. Spring shows steady performance with efficient CPC. Summer has the weakest performance with lower CTR and higher CPC.
 
 ## Recommendations
 •	Invest more in Pinterest for its exceptional ROI performance.
+
 •	Grant more budget to Fall campaigns when consumer responsiveness peaks.
+
 •	Optimize Birmingham-targeted ads to leverage the higher conversion rates.
+
 •	Maintain balanced device spending as both desktop and mobile performs well.
+
 •	Study high-performing ad characteristics and do the same for other campaigns.
+
 •	Monitor seasonal trends to expect performance fluctuations.
+
 •	Test London engagement strategies in other cities to boost interaction rates.
 
