@@ -1,4 +1,4 @@
-# SQL x Power BI- Marketing Campaign Performance Analysis  
+# SQL to Power BI- Marketing Campaign Performance Analysis  
 
 ![Dashboarddesign](assets/images/DashboardGIF.gif)
 
@@ -16,7 +16,8 @@
 - [Findings](#Findings)
 - [Recommendations](#Recommendations)
 
-# Project Brief: Marketing Campaign Performance Analysis
+# Project Brief: 
+Marketing Campaign Performance Analysis
 
 # Objectives
 This project aims to analyze marketing data to gain insights into the effectiveness of campaign performance, optimize the ad spend, and improve future marketing strategies.
