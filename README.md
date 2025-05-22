@@ -1,7 +1,6 @@
-# Marketing Campaign PerformanceAnalysis  
-# SQL | Power BI
+# SQL x Power BI- Marketing Campaign Performance Analysis  
 
-![Dashboard design](assets/images/docs/Dashboard%20GIF%20PNG.png)
+![Dashboarddesign](main/assets/images/docs/Dashboard%20GIF%20PNG.png)
 
 ![Dashboard](assets/images/Dashboard%20GIF.gif.png)
 
