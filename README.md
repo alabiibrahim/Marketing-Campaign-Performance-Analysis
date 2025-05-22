@@ -1,5 +1,5 @@
 # Marketing-Campaign-Performance-Analysis - SQL | Power BI
-
+![output](assets/images/DashboardGIF1)
 
 # Table of contents
 
@@ -39,7 +39,7 @@ This project aims to analyze marketing data to gain insights into the effectiven
 
 # Data Source
 
-#DataTutorials
+#[DataSource](assets/datasets)
 
 ## Tools
 
@@ -59,6 +59,9 @@ Here’s how I played around with the datasets using right chart visuals to tell
 5.	Clustered bar/column chart
 6.	Bar chart
 7.	Tree map
+![output](assets/images/Dashboard1)
+
+![output](assets/images/Dashboard2)
 
 ## Stages
 Here’s a step-by-step guide on how the data was approached 
@@ -85,6 +88,7 @@ GROUP BY Campaign
 ORDER BY Campaign ASC;
 
 ```
+![output](assets/images/001)
 
 ``` sql
 
@@ -94,6 +98,7 @@ FROM [Marketing Data]
 GROUP BY Campaign;
 
 ```
+![output](assets/images/002)
 
 ``` sql
 
@@ -107,6 +112,7 @@ GROUP BY Channel
 ORDER BY AmtSpent DESC;
 
 ```
+![output](assets/images/003)
 
 ``` sql 
 
@@ -118,6 +124,7 @@ FROM [Marketing Data]
 GROUP BY Channel;
 
 ```
+![output](assets/images/004)
 
 ``` sql
 
@@ -130,6 +137,7 @@ GROUP BY City_Location
 ORDER BY Engagement_Rates DESC;
 
 ```
+![output](assets/images/005)
 
 ``` sql
 
@@ -140,6 +148,7 @@ GROUP BY City_Location
 ORDER BY CVR DESC;
 
 ```
+![output](assets/images/006)
 
 ``` sql
 
@@ -154,6 +163,7 @@ FROM [Marketing Data]
 GROUP BY Device;
 
 ```
+![output](assets/images/007)
 
 ``` sql
 
@@ -164,6 +174,7 @@ GROUP BY Device
 ORDER BY HighConversion DESC;
 
 ```
+![Output](assets/images/008)
 
 ``` sql
 
@@ -180,10 +191,12 @@ FROM [Marketing Data]
 GROUP BY Channel;
 
 ```
+![output](assets/images/009)
 
 ``` sql
 
--- (1) What is the ROI for each campaign, and how does it compare across different channels and devices? (2) How does spend correlate with conversion value across different campaigns?
+-- (1) What is the ROI for each campaign, and how does it compare across different channels and devices?
+-- (2) How does spend correlate with conversion value across different campaigns?
 
 WITH CampaignROI AS ( SELECT channel, Device,
 	SUM(Spend_GBP) AS AdSpend,
@@ -196,6 +209,7 @@ GROUP BY Channel, Device
 ORDER BY Channel ASC;	-- Campaign ROI, compare across different channels and devices
 
 ```
+![output](assets/images/010)
 
 ``` sql
 
@@ -209,6 +223,7 @@ ORDER BY ConversionRate DESC; -- spend correlation with conv value across diff c
 
 
 ``` 
+![output](assets/images/011)
 
 ``` sql 
 
@@ -232,6 +247,7 @@ GROUP BY DATEPART(YEAR, Date), DATENAME(MONTH, Date)
 ORDER BY MonthName,ConversionRate DESC;
 
 ```
+![output](assets/images/012)
 
 ## Insights
 
