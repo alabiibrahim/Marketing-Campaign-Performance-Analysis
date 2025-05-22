@@ -1,5 +1,7 @@
-# Marketing-Campaign-Performance-Analysis - SQL | Power BI
-![output](assets/images/DashboardGIF.gif)
+# Marketing Campaign PerformanceAnalysis  
+# SQL | Power BI
+
+![gif](assets/images/DashboardGIF.gif)
 
 # Table of contents
 
@@ -72,9 +74,9 @@ Here’s how I played around with the datasets using right chart visuals to tell
 6.	Bar chart
 7.	Tree map
 
-![output](main/assets/images/Dashboard%201.PNG)
+![Dashboard](main/assets/images/Dashboard%201.PNG)
 
-![output](assets/images/Dashboard2.PNG)
+![Dashboard](assets/images/Dashboard2.PNG)
 
 ## Stages
 Here’s a step-by-step guide on how the data was approached 
