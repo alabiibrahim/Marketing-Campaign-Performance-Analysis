@@ -1,4 +1,4 @@
-# SQL to Power BI- Marketing Campaign Performance Analysis  
+# Marketing Campaign Performance 
 
 ![Dashboarddesign](assets/images/DashboardGIF.gif)
 
